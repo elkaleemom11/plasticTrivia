@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Totally Plastic Trash Trivia!</title>
+
+    <!--Bootstrap CDN link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+        crossorigin="anonymous">
+
+    <!--Bootswatch link-->
+    <link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/solar/bootstrap.min.css">
+
+    <!--CSS file-->
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+    <!--JQuery link-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="bg">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-12" id="header">
+                    <div class="jumbotron">
+                        <h1 class="text-center">Totally Plastic Trash Trivia!</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <!--The start-div will hold the start button at start of game. Hide this div after user clicks Start and after user clicks try again at end of game-->
+                <div id="start-div" class="col-md-12">
+                </div>
+
+                <!--The timer-div holds the time remaining to answer a question.-->
+                <div id="timer-div" class="col-md-12">
+                    <h2>Time remaining: <span id="final-countdown">15</span></h2>
+                </div>
+
+                <!--When time remaining equals 0, display "Time's up" in the time-up div.-->
+                <div id="time-up" class="col-md-12">
+                </div>
+
+                <!--The question-div starts out empty at start of game. When user clicks start, use jQuery to populate the div with the question and four choices.-->
+                <div id="question-div" class="col-md-12">
+                </div>
+
+                <!--Use the correct-answer-div to display to the user whether they got the question right or wrong-->
+                <div id="correct-answer-div" class="col-md-12">
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Javascipt link-->
+    <script src="assets/javascript/app.js"></script>
+</body>
+
+</html>

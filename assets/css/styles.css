@@ -1,0 +1,63 @@
+/*CSS to index.html for plastics*/
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+   
+    background-image: url("../images/photo-1530587191325-3db32d826c18.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.jumbrotron {  
+    margin-top: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    }
+
+ 
+h1 {
+    text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: whitesmoke;
+    width: 100%; 
+    height: 20px;
+    font-size: 30px;
+    text-shadow: 2px 2px black;  
+   }
+
+h2 {
+   text-align: center;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    color: whitesmoke;
+    width: 100%; 
+    height: 20px;
+    font-size: 25px;
+    text-shadow: 2px 2px black;  
+   }
+    
+
+.navbar-brand {
+	font-size: 15px;
+}
+
+#start-div, #question-div, #correct-answer-div, #header, #timer-div, #time-up {
+	margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+  
+  
